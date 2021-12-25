@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+/*Navabr and Landing page */
+
+ .nav-item{
+    color:white;
+ }
+
+ .navbar-custom{
+     background-color: black;
+     color: white;
+ }
+
+.nav-link{
+    color: white;
+}
+
+.nav-item :hover{
+    color: #d5b465;
+    border: 1px solid #d5b465;
+}
+
+.nav-item :active{
+    color: #d5b465;
+    border: 1px solid #d5b465;
+}
+
+.nav-image{
+    background-image: url('https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F657bc016-4b97-11eb-9dbc-44d114c9d92d.jpg?crop=5767%2C3244%2C84%2C1641&resize=1200');
+    background-size:cover ;
+    background-attachment: fixed;
+    height: 900px;
+    width: 100%;
+    opacity: 0.75;
+}
+
+.navbar-logo{
+    color: #d5b465;
+}
+
+.navbar-logo :hover{
+    color: #d5b465;
+}
+
+.landing-page-text{
+    padding-top: 60px;
+    font-size: 60px;
+    color:white;
+}
