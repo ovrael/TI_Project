@@ -1,51 +1,118 @@
-body {
-    background-color: black;
-}
+    body {
+        background-color: black;
+    }
 
-/*Navabr and Landing page */
+    /* Helpers */
 
- .nav-item{
-    color:white;
- }
+    .see-background {
+        background-color: blue;
+    }
 
- .navbar-custom{
-     background-color: black;
-     color: white;
- }
+    .golden-text {
+        color: #d5b465;
+    }
 
-.nav-link{
-    color: white;
-}
+    /*Navabr and Landing page */
 
-.nav-item :hover{
-    color: #d5b465;
-    border: 1px solid #d5b465;
-}
+    .nav-item {
+        color: white;
+    }
 
-.nav-item :active{
-    color: #d5b465;
-    border: 1px solid #d5b465;
-}
+    .navbar-custom {
+        background-color: black;
+        color: white;
+    }
 
-.nav-image{
-    background-image: url('https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F657bc016-4b97-11eb-9dbc-44d114c9d92d.jpg?crop=5767%2C3244%2C84%2C1641&resize=1200');
-    background-size:cover ;
-    background-attachment: fixed;
-    height: 900px;
-    width: 100%;
-    opacity: 0.75;
-}
+    .nav-link {
+        color: white;
+    }
 
-.navbar-logo{
-    color: #d5b465;
-}
+    .nav-item :hover {
+        color: #d5b465;
+        border: 1px solid #d5b465;
+    }
 
-.navbar-logo :hover{
-    color: #d5b465;
-}
+    .nav-image {
+        background-image: url('https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F657bc016-4b97-11eb-9dbc-44d114c9d92d.jpg?crop=5767%2C3244%2C84%2C1641&resize=1200');
+        background-size: cover;
+        background-attachment: fixed;
+        height: 900px;
+        width: 100%;
+        opacity: 0.75;
+    }
 
-.landing-page-text{
-    padding-top: 60px;
-    font-size: 60px;
-    color:white;
-}
+    .navbar-logo {
+        color: #d5b465;
+    }
+
+    .navbar-logo :hover {
+        color: #d5b465;
+    }
+
+    .landing-page-text {
+        padding-top: 60px;
+        font-size: 60px;
+        color: white;
+    }
+
+    /* Menu */
+
+    :root {
+        --menu-category-row-height: 80px;
+        --menu-category-row-width: 53.5%;
+        --menu-category-padding-r-l: 30px;
+    }
+
+    .spacer {
+        height: calc(var(--menu-category-row-height) + 30px);
+    }
+
+    .menu-category-row {
+        background-color: black;
+        position: absolute;
+        line-height: var(--menu-category-row-height);
+        height: var(--menu-category-row-height);
+        width: var(--menu-category-row-width);
+        padding-bottom: var(--menu-category-row-height);
+        font-size: 30px;
+        font-style: italic;
+    }
+
+    .menu-category-left {
+        border-radius: 0px 25px 25px 0px;
+        left: 15px;
+        padding-right: var(--menu-category-padding-r-l);
+    }
+
+    .menu-category-right {
+        border-radius: 25px 0px 0px 25px;
+        right: 15px;
+        padding-left: var(--menu-category-padding-r-l);
+    }
+
+    .menu-table-meals {
+        background-color: rgba(200, 200, 200, 0.75);
+    }
+
+    th.menu-table-head {
+        border: 0px solid;
+    }
+
+    td.menu-table-row {
+        border: solid 3px;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
+    }
+
+    /* .menu-table-row {
+        border: none;
+    } */
+
+    .menu-background {
+        background-image: url("../images/backgrounds/top_view_meal.jpg");
+        background-position: center top;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
