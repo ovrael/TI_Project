@@ -131,14 +131,14 @@
             </div>
 
             <div class="col-lg-4 mb-4 mb-lg-0">
-                <img src="https://images7.alphacoders.com/596/thumb-1920-596343.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+                <img src="https://images7.alphacoders.com/596/thumb-1920-596343.jpg" class="w-100 shadow-1-strong rounded mb-4" />
 
-                <img src="https://images.unsplash.com/photo-1595257841889-eca2678454e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNoZWZ8ZW58MHx8MHx8&w=1000&q=80" class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+                <img src="https://images.unsplash.com/photo-1595257841889-eca2678454e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNoZWZ8ZW58MHx8MHx8&w=1000&q=80" class="w-100 shadow-1-strong rounded mb-4" />
             </div>
             <div class="col-lg-4 mb-4 mb-lg-0">
-                <img src="https://images.unsplash.com/photo-1581349485608-9469926a8e5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNoZWZ8ZW58MHx8MHx8&w=1000&q=80" class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+                <img src="https://images.unsplash.com/photo-1581349485608-9469926a8e5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNoZWZ8ZW58MHx8MHx8&w=1000&q=80" class="w-100 shadow-1-strong rounded mb-4"/>
 
-                <img src="https://ak.picdn.net/shutterstock/videos/15277867/thumb/1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+                <img src="https://ak.picdn.net/shutterstock/videos/15277867/thumb/1.jpg" class="w-100 shadow-1-strong rounded mb-4" />
                 <button type="button" class="btn btn-outline-light btn-lg ml-sm-3 ml-lg-0 "><i class="fas fa-arrow-down ml-2 mr-2"></i></button>
             </div>
 
