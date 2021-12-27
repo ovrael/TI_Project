@@ -26,7 +26,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-            <ul class="navbar-nav ">
+            <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" href="/sites/index.php">Start <span class="sr-only">(current)</span></a>
                 </li>
@@ -45,9 +45,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Kontakt</a>
                 </li>
-
             </ul>
-
         </div>
     </nav>
 
@@ -111,7 +109,8 @@
                     <div class="col-lg-3 col-md-12 font-color1 pb-3"><i class="fas fa-egg fa-lg mr-3"></i> Jajecznica</div>
                 </div>
                 <div style="padding-top: 60px; font-size:20px">
-                    <button type="button" class="btn btn-outline-light btn-lg">Zobacz więcej</button>
+                    <!-- <button type="button" href="#" class="btn btn-outline-light btn-lg">Zobacz więcej</button> -->
+                    <a class="btn btn-outline-light btn-lg" href="/sites/menu.php" role="button">Zobacz więcej</a>
                 </div>
             </div>
 
@@ -123,26 +122,26 @@
 
         </div>
     </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfj1N97shQMYLG9ij5WNxW5Zw4RsBeb_CrwQ&usqp=CAU" class="w-100 shadow-1-strong rounded mb-4" />
+    <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfj1N97shQMYLG9ij5WNxW5Zw4RsBeb_CrwQ&usqp=CAU" class="w-100 shadow-1-strong rounded mb-4" />
 
-                <img src="https://images.pexels.com/photos/2878742/pexels-photo-2878742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="w-100 shadow-1-strong rounded mb-4" />
-            </div>
-
-            <div class="col-lg-4 mb-4 mb-lg-0">
-                <img src="https://images7.alphacoders.com/596/thumb-1920-596343.jpg" class="w-100 shadow-1-strong rounded mb-4" />
-
-                <img src="https://images.unsplash.com/photo-1595257841889-eca2678454e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNoZWZ8ZW58MHx8MHx8&w=1000&q=80" class="w-100 shadow-1-strong rounded mb-4" />
-            </div>
-            <div class="col-lg-4 mb-4 mb-lg-0">
-                <img src="https://images.unsplash.com/photo-1581349485608-9469926a8e5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNoZWZ8ZW58MHx8MHx8&w=1000&q=80" class="w-100 shadow-1-strong rounded mb-4"/>
-
-                <img src="https://ak.picdn.net/shutterstock/videos/15277867/thumb/1.jpg" class="w-100 shadow-1-strong rounded mb-4" />
-                <button type="button" class="btn btn-outline-light btn-lg ml-sm-3 ml-lg-0 "><i class="fas fa-arrow-down ml-2 mr-2"></i></button>
-            </div>
-
+            <img src="https://images.pexels.com/photos/2878742/pexels-photo-2878742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="w-100 shadow-1-strong rounded mb-4" />
         </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="https://images7.alphacoders.com/596/thumb-1920-596343.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+
+            <img src="https://images.unsplash.com/photo-1595257841889-eca2678454e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNoZWZ8ZW58MHx8MHx8&w=1000&q=80" class="w-100 shadow-1-strong rounded mb-4" />
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="https://images.unsplash.com/photo-1581349485608-9469926a8e5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNoZWZ8ZW58MHx8MHx8&w=1000&q=80" class="w-100 shadow-1-strong rounded mb-4" />
+
+            <img src="https://ak.picdn.net/shutterstock/videos/15277867/thumb/1.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+            <button type="button" class="btn btn-outline-light btn-lg ml-sm-3 ml-lg-0 "><i class="fas fa-arrow-down ml-2 mr-2"></i></button>
+        </div>
+
+    </div>
 
 
 </body>

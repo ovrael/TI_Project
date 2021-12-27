@@ -14,9 +14,6 @@
 
     /*Navabr and Landing page */
 
-    .nav-item {
-        color: white;
-    }
 
     .navbar-custom {
         background-color: black;
@@ -25,12 +22,16 @@
 
     .nav-link {
         color: white;
-        margin-left: 30px !important;
+        /* margin-left: 30px !important; */
+    }
+
+    .nav-item {
+        color: white;
     }
 
     .nav-item :hover {
         color: #d5b465;
-        border: 1px solid #d5b465;
+        outline: 1px solid #d5b465;
     }
 
     .nav-image {
@@ -47,7 +48,7 @@
     }
 
     .navbar-logo :hover {
-        color: #d5b465;
+        color: #a78943;
     }
 
     .landing-page-text {
@@ -56,32 +57,34 @@
         color: white;
     }
 
-    .landing-page-image{
+    .landing-page-image {
         height: 40px;
         width: 40px;
 
     }
 
-    .icon-row{
+    .icon-row {
         padding-top: 100px;
     }
 
-    .icon-title{
+    .icon-title {
         color: white;
         padding-top: 20px;
     }
-    .icon-text{
+
+    .icon-text {
         color: white;
         padding-top: 30px;
         font-size: 20px;
         padding-bottom: 40px;
     }
 
-    .font-color1{
+    .font-color1 {
         color: white;
     }
-    .font-color2{
-        color: #dbaf1d;;
+
+    .font-color2 {
+        color: #dbaf1d;
     }
 
     .div1 {
@@ -94,10 +97,11 @@
         padding-left: 5px;
         padding-right: 5px;
     }
-    .text{
+
+    .text {
         font-size: 20px;
     }
-    
+
     @media (max-width: 992px) {
         .landing-page-text {
             padding-top: 60px;
@@ -106,17 +110,19 @@
             font-weight: bold;
         }
 
-        .button-menu{
-           margin-right: 10px;
+        .button-menu {
+            margin-right: 10px;
         }
+
         .div1 {
             height: 500px;
             margin-left: 10px;
         }
-        .text{
+
+        .text {
             font-size: 17px;
         }
-        
+
     }
 
     /* Menu */
@@ -169,12 +175,8 @@
         border-right: 0px;
     }
 
-    /* .menu-table-row {
-        border: none;
-    } */
-
     .menu-background {
-        background-image: url("../images/backgrounds/top_view_pizza.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)), url("../images/backgrounds/top_view_pizza.jpg");
         background-position: center top;
         background-attachment: fixed;
         background-size: cover;
