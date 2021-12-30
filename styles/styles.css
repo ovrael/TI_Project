@@ -182,3 +182,25 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    /* contact page */
+
+    .contact-image {
+        background-image: url('https://wallpaperaccess.com/full/1389214.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        height: 700px;
+        width: 100%;
+        opacity: 0.75;
+    }
+
+    .contact-page-text{
+        padding-top: 300px;
+        font-size: 90px;
+        color: white;
+        font-weight: bold;
+    } 
+    
+    .contact-title{
+        color: white;
+    }

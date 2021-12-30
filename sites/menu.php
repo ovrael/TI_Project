@@ -39,7 +39,7 @@
                     <a class="nav-link" href="#">Rezerwacja</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontakt</a>
+                    <a class="nav-link" href="/sites/kontakt.php">Kontakt</a>
                 </li>
             </ul>
         </div>
@@ -68,9 +68,7 @@
                             echo '</table>';
                             echo '</div>';
                         }
-
                         $category = explode(';', $line)[1];
-
                         $side = "left";
                         $justify = "justify-content-end";
                         if ($categoryIndex % 2 == 1)

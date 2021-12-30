@@ -43,7 +43,7 @@
                     <a class="nav-link" href="#">Rezerwacja</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontakt</a>
+                    <a class="nav-link" href="/sites/kontakt.php">Kontakt</a>
                 </li>
             </ul>
         </div>
