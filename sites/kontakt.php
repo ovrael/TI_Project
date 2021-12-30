@@ -31,7 +31,7 @@
                     <a class="nav-link" href="/sites/index.php">Start <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Galeria</a>
+                    <a class="nav-link" href="/sites/gallery.php">Galeria</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/sites/menu.php">Menu</a>
