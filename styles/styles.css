@@ -1,206 +1,230 @@
-    body {
-        background-color: black;
-    }
+        @font-face {
+            font-family: main-font;
+            src: url('../fonts/AnticDidone-Regular.ttf');
+        }
 
-    /* Helpers */
+        body {
+            background-color: black;
+        }
 
-    .see-background {
-        background-color: blue;
-    }
+        /* Helpers */
 
-    .golden-text {
-        color: #d5b465;
-    }
+        .see-background {
+            background-color: blue;
+        }
 
-    /*Navabr and Landing page */
+        .golden-text {
+            color: #d5b465;
+        }
+
+        /*Navabr and Landing page */
 
 
-    .navbar-custom {
-        background-color: black;
-        color: white;
-    }
+        .navbar-custom {
+            background-color: black;
+            color: white;
+        }
 
-    .nav-link {
-        color: white;
-        /* margin-left: 30px !important; */
-    }
+        .nav-link {
+            color: white;
+            /* margin-left: 30px !important; */
+        }
 
-    .nav-item {
-        color: white;
-    }
+        .nav-item {
+            color: white;
+        }
 
-    .nav-item :hover {
-        color: #d5b465;
-        outline: 1px solid #d5b465;
-    }
+        .nav-item :hover {
+            color: #d5b465;
+            outline: 1px solid #d5b465;
+        }
 
-    .nav-image {
-        background-image: url('https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F657bc016-4b97-11eb-9dbc-44d114c9d92d.jpg?crop=5767%2C3244%2C84%2C1641&resize=1200');
-        background-size: cover;
-        background-attachment: fixed;
-        height: 900px;
-        width: 100%;
-        opacity: 0.75;
-    }
+        .nav-image {
+            background-image: url('https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F657bc016-4b97-11eb-9dbc-44d114c9d92d.jpg?crop=5767%2C3244%2C84%2C1641&resize=1200');
+            background-size: cover;
+            background-attachment: fixed;
+            height: 900px;
+            width: 100%;
+            opacity: 0.75;
+        }
 
-    .navbar-logo {
-        color: #d5b465;
-    }
+        .navbar-logo {
+            color: #d5b465;
+        }
 
-    .navbar-logo :hover {
-        color: #a78943;
-    }
+        .navbar-logo :hover {
+            color: #a78943;
+        }
 
-    .landing-page-text {
-        padding-top: 60px;
-        font-size: 60px;
-        color: white;
-    }
-
-    .landing-page-image {
-        height: 40px;
-        width: 40px;
-
-    }
-
-    .icon-row {
-        padding-top: 100px;
-    }
-
-    .icon-title {
-        color: white;
-        padding-top: 20px;
-    }
-
-    .icon-text {
-        color: white;
-        padding-top: 30px;
-        font-size: 20px;
-        padding-bottom: 40px;
-    }
-
-    .font-color1 {
-        color: white;
-    }
-
-    .font-color2 {
-        color: #dbaf1d;
-    }
-
-    .div1 {
-        width: 700px;
-        height: 400px;
-        border: 2px solid #dbaf1d;
-        box-sizing: border-box;
-        margin-top: 60px;
-        padding-top: 20px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .text {
-        font-size: 20px;
-    }
-
-    @media (max-width: 992px) {
         .landing-page-text {
             padding-top: 60px;
-            font-size: 50px;
+            font-size: 60px;
+            color: white;
+        }
+
+        .landing-page-image {
+            height: 40px;
+            width: 40px;
+
+        }
+
+        .icon-row {
+            padding-top: 100px;
+        }
+
+        .icon-title {
+            color: white;
+            padding-top: 20px;
+        }
+
+        .icon-text {
+            color: white;
+            padding-top: 30px;
+            font-size: 20px;
+            padding-bottom: 40px;
+        }
+
+        .font-color1 {
+            color: white;
+        }
+
+        .font-color2 {
+            color: #dbaf1d;
+        }
+
+        .div1 {
+            width: 700px;
+            height: 400px;
+            border: 2px solid #dbaf1d;
+            box-sizing: border-box;
+            margin-top: 60px;
+            padding-top: 20px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .text {
+            font-size: 20px;
+        }
+
+        @media (max-width: 992px) {
+            .landing-page-text {
+                padding-top: 60px;
+                font-size: 50px;
+                color: white;
+                font-weight: bold;
+            }
+
+            .button-menu {
+                margin-right: 10px;
+            }
+
+            .div1 {
+                height: 500px;
+                margin-left: 10px;
+            }
+
+            .text {
+                font-size: 17px;
+            }
+
+        }
+
+        /* Menu */
+
+        :root {
+            --menu-category-row-height: 80px;
+            --menu-category-row-width: 53.5%;
+            --menu-category-padding-r-l: 30px;
+        }
+
+        .spacer {
+            height: calc(var(--menu-category-row-height) + 30px);
+        }
+
+        .menu-category-row {
+            background-color: black;
+            position: absolute;
+            line-height: var(--menu-category-row-height);
+            height: var(--menu-category-row-height);
+            width: var(--menu-category-row-width);
+            padding-bottom: var(--menu-category-row-height);
+            font-size: 30px;
+            font-style: italic;
+        }
+
+        .menu-category-left {
+            border-radius: 0px 25px 25px 0px;
+            left: 15px;
+            padding-right: var(--menu-category-padding-r-l);
+        }
+
+        .menu-category-right {
+            border-radius: 25px 0px 0px 25px;
+            right: 15px;
+            padding-left: var(--menu-category-padding-r-l);
+        }
+
+        .menu-table-meals {
+            background-color: rgba(200, 200, 200, 0.75);
+        }
+
+        th.menu-table-head {
+            border: 0px solid;
+        }
+
+        td.menu-table-row {
+            border: solid 3px;
+            border-bottom: 0px;
+            border-left: 0px;
+            border-right: 0px;
+        }
+
+        .menu-background {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)), url("../images/backgrounds/top_view_pizza.jpg");
+            background-position: center top;
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        /* contact page */
+
+        .contact-image {
+            background-image: url('https://wallpaperaccess.com/full/1389214.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            height: 700px;
+            width: 100%;
+            opacity: 0.75;
+        }
+
+        .contact-page-text {
+            padding-top: 300px;
+            font-size: 90px;
             color: white;
             font-weight: bold;
         }
 
-        .button-menu {
-            margin-right: 10px;
+        .contact-title {
+            color: white;
         }
 
-        .div1 {
-            height: 500px;
-            margin-left: 10px;
+        /* reservation page */
+        .reservation-image {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)), url("../../images/backgrounds/reservation_background_2.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            height: 700px;
+            width: 100%;
         }
 
-        .text {
-            font-size: 17px;
+        .reservation-page-text {
+            padding-top: 300px;
+            font-size: 90px;
+            color: white;
+            font-weight: bold;
+            opacity: 0.75;
+            font-family: main-font, serif;
+            font-weight: 300;
         }
-
-    }
-
-    /* Menu */
-
-    :root {
-        --menu-category-row-height: 80px;
-        --menu-category-row-width: 53.5%;
-        --menu-category-padding-r-l: 30px;
-    }
-
-    .spacer {
-        height: calc(var(--menu-category-row-height) + 30px);
-    }
-
-    .menu-category-row {
-        background-color: black;
-        position: absolute;
-        line-height: var(--menu-category-row-height);
-        height: var(--menu-category-row-height);
-        width: var(--menu-category-row-width);
-        padding-bottom: var(--menu-category-row-height);
-        font-size: 30px;
-        font-style: italic;
-    }
-
-    .menu-category-left {
-        border-radius: 0px 25px 25px 0px;
-        left: 15px;
-        padding-right: var(--menu-category-padding-r-l);
-    }
-
-    .menu-category-right {
-        border-radius: 25px 0px 0px 25px;
-        right: 15px;
-        padding-left: var(--menu-category-padding-r-l);
-    }
-
-    .menu-table-meals {
-        background-color: rgba(200, 200, 200, 0.75);
-    }
-
-    th.menu-table-head {
-        border: 0px solid;
-    }
-
-    td.menu-table-row {
-        border: solid 3px;
-        border-bottom: 0px;
-        border-left: 0px;
-        border-right: 0px;
-    }
-
-    .menu-background {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)), url("../images/backgrounds/top_view_pizza.jpg");
-        background-position: center top;
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    /* contact page */
-
-    .contact-image {
-        background-image: url('https://wallpaperaccess.com/full/1389214.jpg');
-        background-size: cover;
-        background-attachment: fixed;
-        height: 700px;
-        width: 100%;
-        opacity: 0.75;
-    }
-
-    .contact-page-text{
-        padding-top: 300px;
-        font-size: 90px;
-        color: white;
-        font-weight: bold;
-    } 
-    
-    .contact-title{
-        color: white;
-    }

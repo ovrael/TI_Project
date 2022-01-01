@@ -40,10 +40,10 @@
                     <a class="nav-link" href="#">Restauracja</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Rezerwacja</a>
+                    <a class="nav-link" href="/sites/reservation.php">Rezerwacja</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/sites/kontakt.php">Kontakt</a>
+                    <a class="nav-link" href="/sites/contact.php">Kontakt</a>
                 </li>
             </ul>
         </div>
@@ -85,7 +85,7 @@
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-        <img src="https://i.guim.co.uk/img/media/a6795e6f75daa968c1154d4acedc091599c98474/0_299_4973_2984/master/4973.jpg?width=1200&quality=85&auto=format&fit=max&s=b641084777d2dedffc4dc6523078514d" class="w-100 shadow-1-strong rounded mb-4" />
+            <img src="https://i.guim.co.uk/img/media/a6795e6f75daa968c1154d4acedc091599c98474/0_299_4973_2984/master/4973.jpg?width=1200&quality=85&auto=format&fit=max&s=b641084777d2dedffc4dc6523078514d" class="w-100 shadow-1-strong rounded mb-4" />
             <img src="https://ak.picdn.net/shutterstock/videos/15277867/thumb/1.jpg" class="w-100 shadow-1-strong rounded mb-4" />
         </div>
     </div>

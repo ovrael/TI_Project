@@ -40,10 +40,10 @@
                     <a class="nav-link" href="#">Restauracja</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Rezerwacja</a>
+                    <a class="nav-link" href="/sites/reservation.php">Rezerwacja</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/sites/kontakt.php">Kontakt</a>
+                    <a class="nav-link" href="/sites/contact.php">Kontakt</a>
                 </li>
             </ul>
         </div>
