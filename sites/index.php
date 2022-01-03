@@ -56,7 +56,7 @@
                 <h1 class="landing-page-text ml-4">Ekskluzywny smak <br> europejskiej kuchni !</h1>
             </div>
             <div class="row justify-content-end button-menu">
-                <button type="button" class="btn btn-light btn-lg mt-3">Menu</button>
+                <a class="btn btn-light btn-lg mt-3" href="/sites/menu.php" role="button">Menu</a>
             </div>
         </div>
     </div>
@@ -138,7 +138,7 @@
             <img src="https://images.unsplash.com/photo-1581349485608-9469926a8e5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNoZWZ8ZW58MHx8MHx8&w=1000&q=80" class="w-100 shadow-1-strong rounded mb-4" />
 
             <img src="https://ak.picdn.net/shutterstock/videos/15277867/thumb/1.jpg" class="w-100 shadow-1-strong rounded mb-4" />
-            <button type="button" class="btn btn-outline-light btn-lg ml-sm-3 ml-lg-0 "><i class="fas fa-arrow-down ml-2 mr-2"></i></button>
+            <a class="btn btn-outline-light btn-lg ml-sm-3 ml-lg-0 " href="/sites/gallery.php" role="button"><i class="fas fa-arrow-down ml-2 mr-2"></i></a>
         </div>
 
     </div>

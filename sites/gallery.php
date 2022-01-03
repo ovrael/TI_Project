@@ -60,33 +60,33 @@
 
     <div class="row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfj1N97shQMYLG9ij5WNxW5Zw4RsBeb_CrwQ&usqp=CAU" class="w-100 shadow-1-strong rounded mb-4" />
+            <img src="../images/gallery/1.jpg" class="w-100 shadow-1-strong rounded mb-4" />
 
-            <img src="https://images.pexels.com/photos/2878742/pexels-photo-2878742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="w-100 shadow-1-strong rounded mb-4" />
+            <img src="../images/gallery/2.jpg" class="w-100 shadow-1-strong rounded mb-4" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="https://images7.alphacoders.com/596/thumb-1920-596343.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+            <img src="../images/gallery/3.jpg" class="w-100 shadow-1-strong rounded mb-4" />
 
-            <img src="https://images.unsplash.com/photo-1595257841889-eca2678454e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNoZWZ8ZW58MHx8MHx8&w=1000&q=80" class="w-100 shadow-1-strong rounded mb-4" />
+            <img src="../images/gallery/4.jpg" class="w-100 shadow-1-strong rounded mb-4" />
         </div>
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="https://images.unsplash.com/photo-1581349485608-9469926a8e5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNoZWZ8ZW58MHx8MHx8&w=1000&q=80" class="w-100 shadow-1-strong rounded mb-4" />
-            <img src="https://winedharma.com/wine-dharma/uploads/2020/10/Long-Island-iced-tea-cocktail-recipe-cocktail-with-all-spirits-strong-cocktail.jpg" class="w-100 shadow-1-strong rounded mb-4" />
-        </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" class="w-100 shadow-1-strong rounded mb-4" />
-        </div>
-        <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="https://a.cdn-hotels.com/gdcs/production149/d1480/b0946f24-cd9a-4ba7-ac7c-bef8fdb51a7a.jpg" class="w-100 shadow-1-strong rounded mb-4" />
-
-            <img src="https://mojedrinki.pl/wp-content/uploads/2021/02/long-island-drink.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+            <img src="../images/gallery/5.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+            <img src="../images/gallery/6.jpg" class="w-100 shadow-1-strong rounded mb-4" style="padding-top: 110px;"/>
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="https://i.guim.co.uk/img/media/a6795e6f75daa968c1154d4acedc091599c98474/0_299_4973_2984/master/4973.jpg?width=1200&quality=85&auto=format&fit=max&s=b641084777d2dedffc4dc6523078514d" class="w-100 shadow-1-strong rounded mb-4" />
-            <img src="https://ak.picdn.net/shutterstock/videos/15277867/thumb/1.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+            <img src="../images/gallery/7.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="../images/gallery/8.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+
+            <img src="../images/gallery/9.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="../images/gallery/10.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+            <img src="../images/gallery/11.jpg" class="w-100 shadow-1-strong rounded mb-4" />
         </div>
     </div>
 
