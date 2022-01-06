@@ -61,7 +61,7 @@
     <div class="container our-restaurant-section">
         <div class="row">
             <div class="col">
-                <h1> <i class="fas fa-circle-notch mr-4" style="color:#dbaf1d;"></i> Nasz historia </h1>
+                <h1> <i class="fas fa-circle-notch mr-4 mb-4" style="color:#dbaf1d;"></i> Nasz historia </h1>
 
             </div>
 
@@ -84,7 +84,7 @@
     <div class="container our-restaurant-section">
         <div class="row">
             <div class="col">
-                <h1> <i class="fas fa-circle-notch mr-4" style="color:#dbaf1d;"></i> Catering </h1>
+                <h1> <i class="fas fa-circle-notch mr-4 mb-4" style="color:#dbaf1d;"></i> Catering </h1>
 
             </div>
 
@@ -104,7 +104,7 @@
     <div class="container our-restaurant-section">
         <div class="row">
             <div class="col">
-                <h1> <i class="fas fa-circle-notch mr-4" style="color:#dbaf1d;"></i> Rezerwacja</h1>
+                <h1> <i class="fas fa-circle-notch mr-4 mb-4" style="color:#dbaf1d;"></i> Rezerwacja</h1>
 
             </div>
 
@@ -119,7 +119,7 @@
     <div class="container our-restaurant-section">
         <div class="row">
             <div class="col">
-                <h1> <i class="fas fa-circle-notch mr-4" style="color:#dbaf1d;"></i> Organizacja imprez </h1>
+                <h1> <i class="fas fa-circle-notch mr-4 mb-4" style="color:#dbaf1d;"></i> Organizacja imprez </h1>
 
             </div>
 
