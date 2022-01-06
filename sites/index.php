@@ -15,9 +15,6 @@
     <script src="https://kit.fontawesome.com/d747795ef6.js" crossorigin="anonymous"></script>
     <title>Jedzeniowo</title>
 </head>
-<style>
-    <?php include "/styles/styles.css" ?>
-</style>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-custom" style="padding-top: 15px;">

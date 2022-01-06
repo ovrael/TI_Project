@@ -16,7 +16,7 @@
     <title>Jedzeniowo</title>
 </head>
 
-<body>
+<body class="modal-open">
     <nav class="navbar navbar-expand-lg navbar-custom" style="padding-top: 15px;">
         <h3 class="navbar-brand navbar-logo pt-2 pb-2">JEDZENIOWO</h3>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,81 +46,32 @@
         </div>
     </nav>
 
-
     <div class="reservation-image">
         <div class="container">
             <div class="row justify-content-center">
-                <h1 class="reservation-page-text">Zarezerwuj miejsce</h1>
+
+                <?php
+
+                echo '<h1 class="reservation-page-text">Pomyślnie zarezerwowano</h1>';
+                echo '<div class="row justify-content-center">';
+                echo '<div class="text-white col-12"> Na podane dane </div>';
+                echo '<div class="col-12">';
+                echo '<table class="text-white"><tbody>';
+                echo '<tr><td>Imie:</td><td>' . $_POST['name'] . '</td></tr>';
+                echo '<tr><td>Nazwisko:</td><td>' . $_POST['lastName'] . '</td></tr>';
+                echo '<tr><td>Email:</td><td>' . $_POST['email'] . '</td></tr>';
+                echo '<tr><td>Telefon:</td><td>' . $_POST['phone'] . '</td></tr>';
+                echo '<tr><td>Dzień:</td><td>' . $_POST['reservationDate'] . '</td></tr>';
+                echo '<tr><td>Godzina:</td><td>' . $_POST['hours'] . '</td></tr>';
+                echo '<tr><td>Ilość miejsc:</td><td>' . $_POST['seats'] . '</td></tr>';
+                echo '</tbody></table>';
+                echo '</div>';
+                echo '</div>';
+
+                ?>
             </div>
         </div>
     </div>
-    <div class="row-4 justify-content-center contact-title pt-5 container">
-
-        <form action="/php_scripts/makereservation.php" method="post">
-            <div class="row justify-content-center">
-                <div class="col-12 form-group">
-                    <label for="inputEmail">Email</label>
-                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Wpisz email" name="email" require>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-12 form-group">
-                    <label for="inputName">Imię</label>
-                    <input type="text" class="form-control" id="inputName" placeholder="Podaj imię" name="name" require>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-12 form-group">
-                    <label for="inputLastName">Nazwisko</label>
-                    <input type="text" class="form-control" id="inputLastName" placeholder="Podaj nazwisko" name="lastName" require>
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-12 form-group">
-                    <label for="inputPhoneNumber">Numer telefonu</label>
-                    <input type="number" class="form-control" id="inputPhoneNumber" placeholder="Podaj numer telefonu" name="phone" require>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-4 form-group">
-                    <label for="reservationDate">Data:</label>
-                    <input type="date" id="reservationDate" name="reservationDate" min="<?= date("Y-m-d"); ?>" require>
-                </div>
-                <div class="col-4 form-group">
-                    <label for="hours">Godziny:</label>
-                    <select id="hours" name="hours" require>
-                        <option value="9.00">9.00</option>
-                        <option value="10.30">10.30</option>
-                        <option value="14.30">14.30</option>
-                        <option value="16.00">16.00</option>
-                    </select>
-                </div>
-                <div class="col-4 form-group">
-                    <label for="seats">Ilość miejsc:</label>
-                    <select id="seats" name="seats" require>
-                        <option value="2">2</option>
-                        <option value="4">4</option>
-                        <option value="6">6</option>
-                        <option value="8">8</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-6 form-group">
-                    <label for="moreInformation">Dodatkowe informacje</label>
-                    <textarea class="form-control" id="moreInformation" rows="3" name="moreInformation"></textarea>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <button type="submit" class="btn btn-outline-light btn-lg">Rezerwuj</button>
-            </div>
-        </form>
-
-
-    </div> -->
     <footer class="bg-dark text-center text-white">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
