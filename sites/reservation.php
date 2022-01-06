@@ -59,12 +59,6 @@
         <form action="/php_scripts/makereservation.php" method="post">
             <div class="row justify-content-center">
                 <div class="col-12 form-group">
-                    <label for="inputEmail">Email</label>
-                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Wpisz email" name="email" require>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-12 form-group">
                     <label for="inputName">Imię</label>
                     <input type="text" class="form-control" id="inputName" placeholder="Podaj imię" name="name" require>
                 </div>
@@ -75,11 +69,17 @@
                     <input type="text" class="form-control" id="inputLastName" placeholder="Podaj nazwisko" name="lastName" require>
                 </div>
             </div>
+            <div class="row justify-content-center">
+                <div class="col-12 form-group">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Wpisz email" name="email" require>
+                </div>
+            </div>
 
             <div class="row justify-content-center">
                 <div class="col-12 form-group">
                     <label for="inputPhoneNumber">Numer telefonu</label>
-                    <input type="number" class="form-control" id="inputPhoneNumber" placeholder="Podaj numer telefonu" name="phone" require>
+                    <input type="number" class="form-control" id="inputPhoneNumber" placeholder="Podaj numer telefonu" name="phone" maxlength="9" pattern="[0-9]{9}" require>
                 </div>
             </div>
 
@@ -91,10 +91,10 @@
                 <div class="col-4 form-group">
                     <label for="hours">Godziny:</label>
                     <select id="hours" name="hours" require>
-                        <option value="9.00">9.00</option>
+                        <option value="9.00">8.00</option>
                         <option value="10.30">10.30</option>
-                        <option value="14.30">14.30</option>
-                        <option value="16.00">16.00</option>
+                        <option value="14.30">13.30</option>
+                        <option value="16.00">16.30</option>
                     </select>
                 </div>
                 <div class="col-4 form-group">

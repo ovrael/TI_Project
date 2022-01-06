@@ -53,64 +53,26 @@
     <div class="contact-image">
         <div class="container">
             <div class="row justify-content-center">
-                <h1 class="contact-page-text">Skontaktuj się z nami</h1>
+                <?php
+
+                $file = fopen("../data/messages.txt", "a");
+                if ($file)
+                {
+                    echo '<h1 class="reservation-page-text">Dziękujemy za wysłanie wiadomości!</h1>';
+                    fwrite($file, 'Od: ' . $_POST['name'] . ', ' . $_POST['email'] . ', ' . date("d-m-Y") . ", o treści:\n" . $_POST['message'] . "\n\n");
+                    fclose($file);
+                }
+                else
+                {
+                    echo '<h1 class="reservation-page-text">Niestety nie udało się wysłać wiadomości :(</h1>';
+                }
+
+                ?>
             </div>
         </div>
     </div>
 
-    <div class="container pb-4">
-        <div class="row icon-row">
-            <div class="col-sm text-center">
-                <i class="fas fa-thumbtack fa-4x " style="color:#dbaf1d;"></i>
-                <h3 class="icon-title">Nasza lokalizacja</h3>
-                <p class="icon-text">Restaracja Jedzeniowo <br> Katowice 40-217 <br> Staromiejska 12 </p>
-            </div>
-            <div class="col-sm text-center">
-                <i class="fas fa-mobile-alt fa-4x " style="color:#dbaf1d;"></i>
-                <h3 class="icon-title">Zadzwoń do nas</h3>
-                <p class="icon-text">+48 504 432 100 </p>
-            </div>
-            <div class="col-sm text-center">
-                <i class="far fa-clock fa-4x " style="color:#dbaf1d;"></i>
-                <h3 class="icon-title">Godziny otwarcia</h3>
-                <p class="icon-text">Od poniedziałku do niedzieli <br> 9:00 - 23:00 </p>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row justify-content-center contact-title pb-4">
-            <h2 class="contact-title"> Napisz do nas wiadomość</h2>
-        </div>
-    </div>
-    <div class="row-4 justify-content-center contact-title">
-        <form action="/php_scripts/sendmessage.php" method="post">
-            <div class="row justify-content-center">
-                <div class="col-6 form-group">
-                    <label for="inputName">Imię</label>
-                    <input type="text" class="form-control" id="inputName" placeholder="Podaj imię" name="name">
-                </div>
-            </div>
 
-            <div class="row justify-content-center">
-                <div class="col-6 form-group">
-                    <label for="inputEmail">Email</label>
-                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Wpisz email" name="email">
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-6 form-group">
-                    <label for="exampleFormControlTextarea1">Wiadomość</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" name="message"></textarea>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-6">
-                    <button type="submit" class="btn btn-outline-light btn-lg">Wyślij</button>
-                </div>
-            </div>
-        </form>
-    </div>
 </body>
 
 </html>

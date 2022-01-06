@@ -52,21 +52,32 @@
 
                 <?php
 
-                echo '<h1 class="reservation-page-text">Pomyślnie zarezerwowano</h1>';
-                echo '<div class="row justify-content-center">';
-                echo '<div class="text-white col-12"> Na podane dane </div>';
-                echo '<div class="col-12">';
-                echo '<table class="text-white"><tbody>';
-                echo '<tr><td>Imie:</td><td>' . $_POST['name'] . '</td></tr>';
-                echo '<tr><td>Nazwisko:</td><td>' . $_POST['lastName'] . '</td></tr>';
-                echo '<tr><td>Email:</td><td>' . $_POST['email'] . '</td></tr>';
-                echo '<tr><td>Telefon:</td><td>' . $_POST['phone'] . '</td></tr>';
-                echo '<tr><td>Dzień:</td><td>' . $_POST['reservationDate'] . '</td></tr>';
-                echo '<tr><td>Godzina:</td><td>' . $_POST['hours'] . '</td></tr>';
-                echo '<tr><td>Ilość miejsc:</td><td>' . $_POST['seats'] . '</td></tr>';
-                echo '</tbody></table>';
-                echo '</div>';
-                echo '</div>';
+                $file = fopen("../data/reservations.csv", "a");
+                if ($file)
+                {
+                    fwrite($file, $_POST['reservationDate'] . ';' . $_POST['hours'] . ';' . $_POST['seats'] . ';' . $_POST['moreInformation'] . "\n");
+                    fclose($file);
+
+                    echo '<h1 class="reservation-page-text">Pomyślnie zarezerwowano</h1>';
+                    echo '<div class="row justify-content-center">';
+                    echo '<div class="text-white col-12"> Na podane dane </div>';
+                    echo '<div class="col-12">';
+                    echo '<table class="text-white"><tbody>';
+                    echo '<tr><td>Imie:</td><td>' . $_POST['name'] . '</td></tr>';
+                    echo '<tr><td>Nazwisko:</td><td>' . $_POST['lastName'] . '</td></tr>';
+                    echo '<tr><td>Email:</td><td>' . $_POST['email'] . '</td></tr>';
+                    echo '<tr><td>Telefon:</td><td>' . $_POST['phone'] . '</td></tr>';
+                    echo '<tr><td>Dzień:</td><td>' . $_POST['reservationDate'] . '</td></tr>';
+                    echo '<tr><td>Godzina:</td><td>' . $_POST['hours'] . '</td></tr>';
+                    echo '<tr><td>Ilość miejsc:</td><td>' . $_POST['seats'] . '</td></tr>';
+                    echo '</tbody></table>';
+                    echo '</div>';
+                    echo '</div>';
+                }
+                else
+                {
+                    echo '<h1 class="reservation-page-text">Niestety nie udało się zarezerwować</h1>';
+                }
 
                 ?>
             </div>
