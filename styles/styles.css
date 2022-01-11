@@ -154,19 +154,19 @@
         }
 
         .menu-category-left {
-            border-radius: 0px 25px 25px 0px;
+            border-radius: 0px 10px 10px 0px;
             left: 15px;
             padding-right: var(--menu-category-padding-r-l);
         }
 
         .menu-category-right {
-            border-radius: 25px 0px 0px 25px;
+            border-radius: 10px 0px 0px 10px;
             right: 15px;
             padding-left: var(--menu-category-padding-r-l);
         }
 
         .menu-table-meals {
-            background-color: rgba(200, 200, 200, 0.75);
+            background-color: rgba(209, 209, 209, 0.85);
         }
 
         th.menu-table-head {
