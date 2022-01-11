@@ -34,7 +34,7 @@
                     <a class="nav-link" href="/sites/menu.php">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Restauracja</a>
+                    <a class="nav-link" href="/sites/restaurant.php">Restauracja</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/sites/reservation.php">Rezerwacja</a>
@@ -80,7 +80,8 @@
             <div class="col-sm text-center">
                 <i class="far fa-calendar-alt fa-5x " style="color:#dbaf1d;"></i>
                 <h3 class="icon-title">Zarezerwuj stolik</h3>
-                <button type="button" class="btn btn-outline-light mt-4 mt-4">Rezerwuj</button>
+                <a class="btn btn-outline-light mt-4 mt-4" href="/sites/reservation.php" role="button">Rezerwuj</a>
+
             </div>
 
         </div>

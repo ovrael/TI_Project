@@ -36,7 +36,7 @@
                     <a class="nav-link" href="/sites/menu.php">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Restauracja</a>
+                    <a class="nav-link" href="/sites/restaurant.php">Restauracja</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/sites/reservation.php">Rezerwacja</a>

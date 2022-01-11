@@ -228,3 +228,71 @@
             font-family: main-font, serif;
             font-weight: 300;
         }
+
+        /* Restaurant page */
+
+        .restaurant-background {
+            background-image: url('https://cdn.wallpapersafari.com/34/67/sDbANQ.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            height: 700px;
+            width: 100%;
+            opacity: 0.75;
+        }
+
+        .restaurant-title-backgraund{
+            height: 200px;
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 30px;
+            border-top: solid 6px #dbaf1d;
+            
+        }
+
+        .title-restaurant {
+            background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+            background-size: cover;
+            color: transparent;
+            -moz-background-clip: text;
+            -webkit-background-clip: text;
+            text-transform: uppercase;
+            font-size: 110px;
+            margin: 10px 0;
+            height: 700px;
+            letter-spacing: 1px;
+            padding-top: 200px;
+        }
+    
+        .our-restaurant-section{
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+        .our-restaurant-section-text{
+            font-size: 20px;
+            text-align: justify;
+
+        }
+
+        hr { display: block;
+             height: 0.3;
+             border-top: 0.75px solid white;
+        }
+      
+        @media (max-width: 992px) {
+            .our-restaurant-section-text{
+                font-size: 15px;
+                display: contents;
+            }
+
+            .title-restaurant{
+                font-size: 50px;
+            } 
+            .our-restaurant-section{
+               padding-left: 30px;
+               padding-right: 30px;
+            }
+        }
