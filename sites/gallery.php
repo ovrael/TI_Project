@@ -58,38 +58,48 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-            <img src="../images/gallery/1.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img src="../images/gallery/1.jpg" class="w-100 shadow-1-strong rounded mb-4" />
 
-            <img src="../images/gallery/2.jpg" class="w-100 shadow-1-strong rounded mb-4" />
-        </div>
+                <img src="../images/gallery/2.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+            </div>
 
-        <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="../images/gallery/3.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="../images/gallery/3.jpg" class="w-100 shadow-1-strong rounded mb-4" />
 
-            <img src="../images/gallery/4.jpg" class="w-100 shadow-1-strong rounded mb-4" />
-        </div>
-        <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="../images/gallery/5.jpg" class="w-100 shadow-1-strong rounded mb-4" />
-            <img src="../images/gallery/6.jpg" class="w-100 shadow-1-strong rounded mb-4" style="padding-top: 110px;"/>
-        </div>
+                <img src="../images/gallery/4.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+            </div>
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="../images/gallery/5.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+                <img src="../images/gallery/6.jpg" class="w-100 shadow-1-strong rounded mb-4" style="padding-top: 110px;" />
+            </div>
 
-        <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="../images/gallery/7.jpg" class="w-100 shadow-1-strong rounded mb-4" />
-        </div>
-        <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="../images/gallery/8.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="../images/gallery/7.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+            </div>
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="../images/gallery/8.jpg" class="w-100 shadow-1-strong rounded mb-4" />
 
-            <img src="../images/gallery/9.jpg" class="w-100 shadow-1-strong rounded mb-4" />
-        </div>
+                <img src="../images/gallery/9.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+            </div>
 
-        <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="../images/gallery/10.jpg" class="w-100 shadow-1-strong rounded mb-4" />
-            <img src="../images/gallery/11.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="../images/gallery/10.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+                <img src="../images/gallery/11.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+            </div>
         </div>
     </div>
-
+    <footer>
+        <div class="container p-3">
+            <div class="row">
+                <div class="col-4 offset-4 text-center footer-logo">
+                    J E D Z E N I O W O
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

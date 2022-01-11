@@ -240,17 +240,18 @@
             opacity: 0.75;
         }
 
-        .restaurant-title-backgraund{
+        .restaurant-title-backgraund {
             height: 200px;
             width: 100%;
             margin-top: 5px;
             margin-bottom: 30px;
             border-top: solid 6px #dbaf1d;
-            
+
         }
 
         .title-restaurant {
-            background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+
+            background-image: url(https://media1.giphy.com/media/LnEeDF1IzKdZlHruw9/giphy.gif?cid=ecf05e47vjsqha0f2l4zcuu3w44kzuo600mjiuhze3vbpori&rid=giphy.gif&ct=g);
             background-size: cover;
             color: transparent;
             -moz-background-clip: text;
@@ -262,37 +263,95 @@
             letter-spacing: 1px;
             padding-top: 200px;
         }
-    
-        .our-restaurant-section{
+
+        .our-restaurant-section {
             color: white;
             display: flex;
             justify-content: center;
             padding-top: 50px;
             padding-bottom: 50px;
         }
-        
-        .our-restaurant-section-text{
+
+        .our-restaurant-section-text {
             font-size: 20px;
             text-align: justify;
-
         }
 
-        hr { display: block;
-             height: 0.3;
-             border-top: 0.75px solid white;
+        hr {
+            display: block;
+            height: 0.3;
+            border-top: 0.75px solid white;
         }
-      
+
         @media (max-width: 992px) {
-            .our-restaurant-section-text{
+            .our-restaurant-section-text {
                 font-size: 15px;
                 display: contents;
             }
 
-            .title-restaurant{
+            .title-restaurant {
                 font-size: 50px;
-            } 
-            .our-restaurant-section{
-               padding-left: 30px;
-               padding-right: 30px;
             }
+
+            .our-restaurant-section {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+        }
+
+        /* footer */
+        .footer-logo {
+            font-size: 24px;
+            color: #d5b465;
+            letter-spacing: 4x;
+        }
+
+        /* ===== Scrollbar CSS ===== */
+        /* Firefox */
+        * {
+            scrollbar-width: auto;
+            scrollbar-color: #d5b465 #000000;
+        }
+
+        /* Chrome, Edge, and Safari */
+        ::-webkit-scrollbar {
+            width: 16px;
+            height: 16px;
+        }
+
+        ::-webkit-scrollbar-button {
+            width: 0px;
+            height: 0px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #d5b465;
+            border: 2px solid #000000;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #f4ca66;
+        }
+
+        ::-webkit-scrollbar-thumb:active {
+            background: #b39247;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #000000;
+            border: 22px none #ffffff;
+            border-radius: 0px;
+        }
+
+        ::-webkit-scrollbar-track:hover {
+            background: #000000;
+        }
+
+        ::-webkit-scrollbar-track:active {
+            background: #000000;
+        }
+
+        ::-webkit-scrollbar-corner {
+            background: transparent;
         }

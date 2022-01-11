@@ -15,9 +15,6 @@
     <script src="https://kit.fontawesome.com/d747795ef6.js" crossorigin="anonymous"></script>
     <title>Jedzeniowo</title>
 </head>
-<style>
-    <?php include "/styles/styles.css" ?>
-</style>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-custom" style="padding-top: 15px;">
@@ -49,7 +46,6 @@
         </div>
     </nav>
 
-
     <div class="restaurant-background">
         <div class="container">
             <div class="row justify-content-center">
@@ -61,13 +57,13 @@
     <div class="container our-restaurant-section">
         <div class="row">
             <div class="col">
-                <h1> <i class="fas fa-circle-notch mr-4 mb-4" style="color:#dbaf1d;"></i> Nasz historia </h1>
+                <h1> <i class="fas fa-circle-notch mr-4 mb-4 golden-text"></i> Nasza historia </h1>
 
             </div>
 
             <div class="our-restaurant-section-text col">
-                Restauracja powstała w połowie XX wieku i od tego czasu jest przekazywana w rodznie z poklenia na pokolenie. </br>
-                Kiedyś zerwowano głównie polskie dania, lecz z czasem urozmaicono menu.
+                Restauracja powstała w połowie XX wieku i od tego czasu jest przekazywana w rodzinie z pokolenia na pokolenie. </br>
+                Kiedyś serwowano głównie polskie dania, lecz z czasem urozmaicono menu o kuchnię włoską i azjatycką.
                 </br></br>
 
                 Restauracja Jedzeniowo to połączenie esencji włoskiej kuchni i stylu z tradycyjnymi polskimi daniami.
@@ -84,7 +80,7 @@
     <div class="container our-restaurant-section">
         <div class="row">
             <div class="col">
-                <h1> <i class="fas fa-circle-notch mr-4 mb-4" style="color:#dbaf1d;"></i> Catering </h1>
+                <h1> <i class="fas fa-circle-notch mr-4 mb-4 golden-text"></i> Catering </h1>
 
             </div>
 
@@ -93,9 +89,9 @@
                 Dowozimy gorące dania w podgrzewanych paterach utrzymujących ciepło. Zamówienia na catering można składać telefonicznie pod numerem <strong>+48 504 432 100 </strong>
                 lub osobiście w naszej restauracji.
                 </br></br>
-                 Zamówienia przyjmujemy z minimum 2-dniowym wyprzedzeniem.
-                 Minimalna kwota zamówienia: 100 zł. </br> 
-                 W obrębie 15 km transport gratis.
+                Zamówienia przyjmujemy z minimum 2-dniowym wyprzedzeniem.
+                Minimalna kwota zamówienia: 100 zł. </br>
+                W obrębie 15 km transport gratis.
             </div>
         </div>
     </div>
@@ -104,7 +100,7 @@
     <div class="container our-restaurant-section">
         <div class="row">
             <div class="col">
-                <h1> <i class="fas fa-circle-notch mr-4 mb-4" style="color:#dbaf1d;"></i> Rezerwacja</h1>
+                <h1> <i class="fas fa-circle-notch mr-4 mb-4 golden-text"></i> Rezerwacja</h1>
 
             </div>
 
@@ -119,7 +115,7 @@
     <div class="container our-restaurant-section">
         <div class="row">
             <div class="col">
-                <h1> <i class="fas fa-circle-notch mr-4 mb-4" style="color:#dbaf1d;"></i> Organizacja imprez </h1>
+                <h1> <i class="fas fa-circle-notch mr-4 mb-4 golden-text"></i> Organizacja imprez </h1>
 
             </div>
 
@@ -127,15 +123,25 @@
                 Posiadamy bogate doświadczenie w organizowaniu wszelkiego rodzaju imprez okolicznościowych.
                 Uroczystości rodzinne takie jak: chrzciny, komunie czy urodziny.
                 Restauracja Jedzeniowo to idealne rozwiązanie – gwarantujemy pełną obsługę techniczną i gastronomiczną wydarzeń w naszych atrakcyjnych wizualnie i przestronnych wnętrzach.
-                </br></br>
-                Zadzwoń do nas i zaufaj naszemu doświadczeniu, a my zadbamy o całą resztę.
+                </br>
+                <a class="btn btn-outline-light mt-4 mt-4" href="/sites/gallery.php" role="button">Zobacz restaurację</a>
             </div>
         </div>
-
+    </div>
+    <div class="container text-center our-restaurant-section our-restaurant-section-text">
+        Zadzwoń do nas i zaufaj naszemu doświadczeniu, a my zadbamy o całą resztę.
     </div>
 
 
-
+    <footer>
+        <div class="container p-3">
+            <div class="row">
+                <div class="col-4 offset-4 text-center footer-logo">
+                    J E D Z E N I O W O
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

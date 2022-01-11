@@ -37,7 +37,7 @@
                     <a class="nav-link" href="/sites/menu.php">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Restauracja</a>
+                    <a class="nav-link" href="/sites/restaurant.php">Restauracja</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/sites/reservation.php">Rezerwacja</a>
@@ -72,7 +72,15 @@
         </div>
     </div>
 
-
+    <footer>
+        <div class="container p-3">
+            <div class="row">
+                <div class="col-4 offset-4 text-center footer-logo">
+                    J E D Z E N I O W O
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
