@@ -107,7 +107,7 @@
                             echo '<td class="menu-table-row">' . $mealData[$j] . '</td>';
                         }
 
-                        echo '<td class="menu-table-row text-center">' . $mealData[count($mealData) - 3] . '</td>';
+                        echo '<td class="menu-table-row text-center">' . $mealData[count($mealData) - 3] . 'g </td>';
 
                         $icon = '<i class="fas fa-minus"></i>';
                         switch ($mealData[count($mealData) - 2])
