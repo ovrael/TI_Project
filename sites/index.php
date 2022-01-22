@@ -60,22 +60,22 @@
     <div class="container pb-4">
         <div>
             <div class="row icon-row">
-                <div class="col-sm text-center">
+                <div class="col-sm-6 col-md-3 col-lg text-center">
                     <i class="fas fa-thumbtack fa-5x golden-text"></i>
                     <h3 class="icon-title">Nasza lokalizacja</h3>
                     <p class="icon-text">Restaracja Jedzeniowo <br> Katowice 40-217 <br> Staromiejska 12 </p>
                 </div>
-                <div class="col-sm text-center">
+                <div class="col-sm-6 col-md-3 col-lg text-center">
                     <i class="fas fa-mobile-alt fa-5x golden-text"></i>
                     <h3 class="icon-title">Zadzwoń do nas</h3>
                     <p class="icon-text">+48 504 432 100 </p>
                 </div>
-                <div class="col-sm text-center">
+                <div class="col-sm-6 col-md-3 col-lg text-center">
                     <i class="far fa-clock fa-5x golden-text"></i>
                     <h3 class="icon-title">Godziny otwarcia</h3>
                     <p class="icon-text">Od poniedziałku do niedzieli <br> 9:00 - 23:00 </p>
                 </div>
-                <div class="col-sm text-center">
+                <div class="col-sm-6 col-md-3 col-lg text-center">
                     <i class="far fa-calendar-alt fa-5x golden-text"></i>
                     <h3 class="icon-title">Zarezerwuj stolik</h3>
                     <a class="btn btn-outline-light mt-4 mt-4" href="/sites/reservation.php" role="button">Rezerwuj</a>
@@ -84,7 +84,7 @@
 
             </div>
             <div class="row">
-                <div class="col align-self-center div1 text-center">
+                <div class="col align-self-center div2 text-center">
                     <h1 class="font-color1 pb-4">Poznaj naszą restauracje!</h1>
                     <p class="font-color1 text">
                         W 2015 powstało miejsce z pasji do designu oraz przyjemności jedzenia. Szef kuchni Marcin Bródka serwuje dania dbając o najbardziej wyrafinowane podniebienia,

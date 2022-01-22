@@ -50,6 +50,7 @@
 
         .navbar-logo {
             color: #d5b465;
+            letter-spacing: 4px;
         }
 
         .navbar-logo :hover {
@@ -102,6 +103,17 @@
             padding-left: 5px;
             padding-right: 5px;
         }
+        
+        .div2 {
+            width: 700px;
+            height: 350px;
+            border: 2px solid #dbaf1d;
+            box-sizing: border-box;
+            margin-top: 60px;
+            padding-top: 20px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
 
         .text {
             font-size: 20px;
@@ -113,6 +125,7 @@
                 font-size: 50px;
                 color: white;
                 font-weight: bold;
+                text-align: center;
             }
 
             .button-menu {
@@ -121,6 +134,11 @@
 
             .div1 {
                 height: 500px;
+                margin-left: 10px;
+            }
+
+            .div2 {
+                height: 400px;
                 margin-left: 10px;
             }
 
@@ -210,6 +228,12 @@
             color: white;
         }
 
+        @media (max-width: 992px) { 
+            .contact-page-text {
+                font-size: 70px;
+                text-align: center;
+            }
+        }
         /* reservation page */
         .reservation-image {
             background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)), url("../../images/backgrounds/reservation_background_2.jpg");
@@ -303,7 +327,14 @@
         .footer-logo {
             font-size: 24px;
             color: #d5b465;
-            letter-spacing: 4x;
+            letter-spacing: 4px;
+        }
+        @media (max-width: 992px) {
+            .footer-logo {
+                font-size: 12px;
+                color: #d5b465;
+                letter-spacing: 0px;
+            }
         }
 
         /* ===== Scrollbar CSS ===== */

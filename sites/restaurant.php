@@ -96,6 +96,7 @@
         </div>
     </div>
 
+    <hr>
 
     <div class="container our-restaurant-section">
         <div class="row">
@@ -111,6 +112,8 @@
         </div>
 
     </div>
+
+    <hr>
 
     <div class="container our-restaurant-section">
         <div class="row">
