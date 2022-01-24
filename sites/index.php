@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles//styles.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Fugaz+One&family=Kaushan+Script&family=Syncopate&display=swap" rel="stylesheet">
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -18,7 +22,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-custom" style="padding-top: 15px;">
-        <h3 class="navbar-brand navbar-logo pt-2 pb-2">JEDZENIOWO</h3>
+        <h3 class="navbar-brand navbar-logo pt-2 pb-2" style="font-family: 'Antic Didone', serif;">JEDZENIOWO</h3>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -97,12 +101,12 @@
             <div class="row">
                 <div class="col align-self-center div1 text-center">
                     <h1 class="font-color1 pb-4">Sprawdź nasze menu !</h1>
-                    <h4 class="font-color2">Najpopularniejsze potrwy</h4>
+                    <h4 class="font-color2">Serwujemy</h4>
                     <div class="row" style="padding-top: 30px; font-size:20px">
-                        <div class="col-lg-3 col-md-12 font-color1 pb-3"><i class="fas fa-pizza-slice fa-lg mr-3"></i> Pizza</div>
-                        <div class="col-lg-3 col-md-12 font-color1 pb-3"> <i class="fas fa-fish fa-lg mr-3"></i> Ryba</div>
-                        <div class="col-lg-3 col-md-12 font-color1 pb-3"><i class="fas fa-hamburger fa-lg mr-3"></i> Hamburger</div>
-                        <div class="col-lg-3 col-md-12 font-color1 pb-3"><i class="fas fa-egg fa-lg mr-3"></i> Jajecznica</div>
+                        <div class="col-lg-3 col-md-12 font-color1 pb-3"><i class="fas fa-bread-slice fa-lg mr-3"></i> Śniadania</div>
+                        <div class="col-lg-3 col-md-12 font-color1 pb-3"> <i class="fas fa-fish fa-lg mr-3"></i> Obiady</div>
+                        <div class="col-lg-3 col-md-12 font-color1 pb-3"><i class="fas fa-pizza-slice fa-lg mr-3"></i> Pizze</div>
+                        <div class="col-lg-3 col-md-12 font-color1 pb-3"><i class="fas fa-child fa-lg mr-3"></i>Dania specjalnie dla dzieci</div>
                     </div>
                     <div style="padding-top: 60px; font-size:20px">
                         <a class="btn btn-outline-light btn-lg" href="/sites/menu.php" role="button">Zobacz więcej</a>

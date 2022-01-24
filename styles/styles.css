@@ -51,6 +51,7 @@
         .navbar-logo {
             color: #d5b465;
             letter-spacing: 4px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
         }
 
         .navbar-logo :hover {
@@ -249,7 +250,7 @@
             color: white;
             font-weight: bold;
             opacity: 0.75;
-            font-family: main-font, serif;
+            /* font-family: main-font, serif; */
             font-weight: 300;
         }
 

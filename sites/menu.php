@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles/styles.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Fugaz+One&family=Kaushan+Script&family=Syncopate&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/e1ed59b2c0.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -20,7 +23,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-custom" style="padding-top: 15px;">
-        <h3 class="navbar-brand navbar-logo pt-2 pb-2">JEDZENIOWO</h3>
+        <h3 class="navbar-brand navbar-logo pt-2 pb-2" style="font-family: 'Antic Didone', serif;">JEDZENIOWO</h3>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
