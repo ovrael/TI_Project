@@ -1,26 +1,37 @@
 Category;Śniadania;;;
-Jajecznica z boczkiem;Jajecznica z 3 jajek wraz ze świeżym boczkiem;350;b;14
-Tosty francuskie;4 tosty usmażone w panierce z jajka;360;b;14
-Tortilla z jajkiem i bekonem;Tortilla z jajkiem na twardo oraz boczkiem;340;b;14
-Panini z boczniakami i sosem Aioli;Wegańskie panini ze smażonymi boczniakami i aksamitnym sosem aioli;355;b;14
-Pieczarkowe kanapki;Kanapki z pieczarkami, twarogiem i chrzanem;260;;
-Humusowe kanapki;Kanapki z humusem i fasolkami edamame;275;;
-Gofrowe kanapki;Kanapki ze świeżo zrobionych gofrów z marynowaną cebulką i serkiem labneh;266;;
-Jajka na boczku;3 jajka zapiekane na świeżym boczku;290;;
-Owsianka kokosowa;Owsianka kokosowa z malinami;180;;
-Szpinakowy omlet;Omlet ze szpinakiem i pomidorami koktajlowymi;220;;
+Jajecznica z boczkiem;Jajecznica z 3 jajek wraz ze świeżym boczkiem;350;b;26
+Tosty francuskie;4 tosty usmażone w panierce z jajka;360;b;24
+Tortilla z jajkiem i bekonem;Tortilla z jajkiem na twardo oraz boczkiem;340;b;19
+Panini z boczniakami i sosem Aioli;Wegańskie panini ze smażonymi boczniakami i aksamitnym sosem aioli;355;w;22
+Pieczarkowe kanapki;Kanapki z pieczarkami, twarogiem i chrzanem;260;w;23
+Humusowe kanapki;Kanapki z humusem i fasolkami edamame;275;w;22
+Gofrowe kanapki;Kanapki ze świeżo zrobionych gofrów z marynowaną cebulką i serkiem labneh;266;w;21
+Jajka na boczku;3 jajka zapiekane na świeżym boczku;290;b;18
+Owsianka kokosowa;Owsianka kokosowa z malinami;180;w;16
+Szpinakowy omlet;Omlet ze szpinakiem i pomidorami koktajlowymi;220;w;17
 Category;Pizze;;;
-Margharitta;Normalna picka;69g;w;24
-Ostra picka;Pikanta picka;69g;o;24
+Margherita;sos, ser;430;w;19
+Funghi;sos, ser, pieczarki;450;w;21
+Vegetariana;sos, ser, warzywa sezonowe;440;w;21
+Hawaii;sos, ser, szynka, ananas;460;b;22
+Salami;sos, ser, salami, papryka;450;b;23
+Capricciosa;sos, ser, pieczarki, szynka;455;b;25
+Category;Zupy;;;
+Rosół;Z makaronem;250;b;16
+Pomidorowa;Z makaronem;250;b;17
+Ogórkowa;Ze świeżych ogórków;260;w;18
+Grzybowa;Z miksu grzybów;260;w;20
+Krupnik;Z kaszą jęczmienną, ziemniakami i marchewką;270;b;18
+Żurek;Z białą kiełbasą;260;b;20
+Krem z dyni;Z dodatkiem ziemniaków i pomidora;250;w;21
 Category;Mączne;;;
-Spaghetto;Makaron z miensem;70g;b;19
-Spaghetto;Makaron z miensem;70g;b;19
-Spaghetto;Makaron z miensem;70g;b;19
-Spaghetto;Makaron z miensem;70g;b;19
-Spaghetto;Makaron z miensem;70g;b;19
-Spaghetto;Makaron z miensem;70g;b;19
+Kopytka;16 sztuk;240;w;18
+Pierogi ruskie;12 sztuk;200;w;20
+Pierogi z serem;12 sztuk;200;w;20
+Placki ziemniaczane;3 sztuki;180;w;18
+Racuchy z jabłkami;5 sztuki;190;w;17
 Category;Dla dzieci;;;
-Pierogi ruskie;Pierogi z serowym nadzieniem z cebulką i skwarkami;30g;w;12
-Pierogi ruskie;Pierogi z serowym nadzieniem z cebulką i skwarkami;30g;w;12
-Pierogi ruskie;Pierogi z serowym nadzieniem z cebulką i skwarkami;30g;w;12
-Pierogi ruskie;Pierogi z serowym nadzieniem z cebulką i skwarkami;30g;w;12
+Pierogi ruskie;6 sztuk;120;w;15
+Rosołek;Pyszny rosół z kluskami;160;b;10
+Naleśniki z dżemem;2 sztuki;140;w;12
+Naleśniki z Nutellą;2 sztuki;140;w;12
