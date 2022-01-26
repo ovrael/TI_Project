@@ -24,10 +24,6 @@ This is our academic project for Internet Technologies subject. It's very simple
 
 ## Screenshots -- TO BE DONE
 
-<img src="./ShopApp/Images/ReadMeImages/RegistrationView.png"/>
-<img src="./ShopApp/Images/ReadMeImages/MainView.png"/>
-<img src="./ShopApp/Images/ReadMeImages/Messenger.png"/>
-
 
 ## Technologies
 

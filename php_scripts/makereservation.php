@@ -56,7 +56,7 @@
                 $file = fopen("../data/reservations.csv", "a");
                 if ($file)
                 {
-                    fwrite($file, $_POST['reservationDate'] . ';' . $_POST['hours'] . ';' . $_POST['seats'] . ';' . $_POST['moreInformation'] . "\n");
+                    fwrite($file, $_POST['reservationDate'] . ';' . $_POST['hours'] . ';' . $_POST['seats'] . ';' . $_POST['phone'] . ';' . $_POST['moreInformation'] . "\n");
                     fclose($file);
 
                     echo '<h1 class="reservation-page-text">Pomyślnie zarezerwowano</h1>';
